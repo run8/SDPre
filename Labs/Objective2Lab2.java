@@ -5,6 +5,5 @@ public class Objective2Lab2 {
     String state = "Arkansas";
 
    System.out.println("Name: " + name + "\nAge: " + age + "\nPOB: " + state);
-    // System.out.println("Hi \n there");
   }
 }
