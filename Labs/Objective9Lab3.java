@@ -4,12 +4,11 @@ public class Objective9Lab3 {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     int selection;
-
     while(true){
       printMenu();
       selection = scanner.nextInt();
       if (selection == 1) {
-        printMenu();
+        sayHello();
       } else if (selection == 2){
         favoriteFood();
       } else if (selection == 3){
@@ -19,18 +18,16 @@ public class Objective9Lab3 {
         printMenu();
       }
     }
-
     scanner.close();
-
   }
 
   public static void sayHello() {
     System.out.println("Hello Human");
-
   }
 
   public static void favoriteFood(){
     System.out.println("Apples, Bananas, Coconuts");
+    System.out.println();
   }
 
   public static void printMenu() {
